@@ -61,11 +61,30 @@
 # print("z is " + z * 3)
 
 # user input in python
-name = input("What is your name? ")
-age = int(input("How old are you? "))
+# name = input("What is your name? ")
+# age = int(input("How old are you? "))
 
-age = age + 1
+# age = age + 1
 
-print("Hello " + name)
-print("You are " + str(age) + " years old")
+# print("Hello " + name)
+# print("You are " + str(age) + " years old")
+
+# math function 
+
+# import math
+
+# pi = -3.14
+# x = 1
+# y = 2
+# z = 3
+# print(round(pi))
+# print(math.ceil(pi))
+# print(math.floor(pi))
+# print(pow(pi, 2))
+# print(math.sqrt(420))
+# print(max(x, y, z))
+# print(min(x, y, z))
+# print(math.pi)
+
+
 
