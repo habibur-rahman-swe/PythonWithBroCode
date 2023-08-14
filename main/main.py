@@ -220,13 +220,35 @@
 
 # tuple = collection which is ordered and unchangeable used to group together related data
 
-student = ("Bro", 21, "male")
+# student = ("Bro", 21, "male")
 
-print(student.count("Bro"))
-print(student.index("male"))
+# print(student.count("Bro"))
+# print(student.index("male"))
 
-for x in student:
-    print(x)
+# for x in student:
+#     print(x)
 
-if "Bro" in student:
-    print("Brow is here!")
+# if "Bro" in student:
+#     print("Brow is here!")
+
+# set 
+
+utensils = {"fork", "fork", "spon", "knife"}
+
+# utensils.add("napkin")
+# utensils.remove("fork")
+# utensils.clear()
+
+# for x in utensils:
+#     print(x)
+
+dishes = {"bowl", "plate", "cup", "spon"}
+
+# utensils.update(dishes)
+# dinner_table = utensils.union(dishes)
+
+print(utensils.difference(dishes))
+print(utensils.intersection(dishes))
+
+# for x in dinner_table:
+#     print(x)
