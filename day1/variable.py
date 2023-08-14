@@ -194,17 +194,27 @@
 
 # list 
 
-food = ["pizza", "hamburger", "hotdog", "spaghetti", "pudding"]
-food[0] = "suci"
-print(food[0])
+# food = ["pizza", "hamburger", "hotdog", "spaghetti", "pudding"]
+# food[0] = "suci"
+# print(food[0])
 
-food.append("ice cream")
-food.remove("suci")
-food.pop()
-food.insert(0, "cake")
-food.sort()
-food.clear()
+# food.append("ice cream")
+# food.remove("suci")
+# food.pop()
+# food.insert(0, "cake")
+# food.sort()
+# food.clear()
 
-for x in food:
-    print(x)
+# for x in food:
+#     print(x)
+
+# 2D lists
+
+dinks = ["coffee", "soda", "tea"]
+dinner = ["pizza", "hamburger", "hotdog"]
+dessert = ["case", "ice cream"]
+
+food = [dinks, dinner, dessert]
+
+print(food[0][1])
 
