@@ -186,8 +186,25 @@
 #         continue
 #     print(i, end="")
 
-for i in range(1, 5):
-    if i == 4:
-        pass
-    else:
-        print(i)
+# for i in range(1, 5):
+#     if i == 4:
+#         pass
+#     else:
+#         print(i)
+
+# list 
+
+food = ["pizza", "hamburger", "hotdog", "spaghetti", "pudding"]
+food[0] = "suci"
+print(food[0])
+
+food.append("ice cream")
+food.remove("suci")
+food.pop()
+food.insert(0, "cake")
+food.sort()
+food.clear()
+
+for x in food:
+    print(x)
+
