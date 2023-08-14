@@ -125,11 +125,20 @@
 
 # logical operatore(and, or, not) in python
 
-temp = int(input("What is the temperature outside? : "))
+# temp = int(input("What is the temperature outside? : "))
 
-if not(temp >= 0 and temp <= 30):
-    print("The temperature is good today!")
-    print("go outside!")
-elif not(temp < 0 or temp > 30):
-    print("the temperature is bad today!")
-    print("stay inside!")
+# if not(temp >= 0 and temp <= 30):
+#     print("The temperature is good today!")
+#     print("go outside!")
+# elif not(temp < 0 or temp > 30):
+#     print("the temperature is bad today!")
+#     print("stay inside!")
+
+# while loop in python
+
+name = None
+
+while len(name) == 0:
+    name = input("Enter your name: ")
+
+print("Hello " + name)
