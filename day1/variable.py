@@ -210,11 +210,23 @@
 
 # 2D lists
 
-dinks = ["coffee", "soda", "tea"]
-dinner = ["pizza", "hamburger", "hotdog"]
-dessert = ["case", "ice cream"]
+# dinks = ["coffee", "soda", "tea"]
+# dinner = ["pizza", "hamburger", "hotdog"]
+# dessert = ["case", "ice cream"]
 
-food = [dinks, dinner, dessert]
+# food = [dinks, dinner, dessert]
 
-print(food[0][1])
+# print(food[0][1])
 
+# tuple = collection which is ordered and unchangeable used to group together related data
+
+student = ("Bro", 21, "male")
+
+print(student.count("Bro"))
+print(student.index("male"))
+
+for x in student:
+    print(x)
+
+if "Bro" in student:
+    print("Brow is here!")
