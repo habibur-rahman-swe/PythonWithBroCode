@@ -100,13 +100,25 @@
 # print(funky_name)
 # print(reverse_name)
 
-website1 = "https://google.com"
-website2 = "https://wiki.com"
+# website1 = "https://google.com"
+# website2 = "https://wiki.com"
 
-slice = slice(7, -4)
+# slice = slice(7, -4)
 
-website1 = website1[slice]
-website2 = website2[slice]
+# website1 = website1[slice]
+# website2 = website2[slice]
 
-print(website1)
-print(website2)
+# print(website1)
+# print(website2)
+
+# if statement 
+age = int(input("How old are you? : "))
+
+if age == 100:
+    print("You are a century old!")
+elif age >= 18:
+    print("Yor are and adult")
+elif age < 0:
+    print("You haven't born yet!")
+else:
+    print("Yor are a child!")
