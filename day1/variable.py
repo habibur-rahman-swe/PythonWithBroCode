@@ -112,13 +112,24 @@
 # print(website2)
 
 # if statement 
-age = int(input("How old are you? : "))
+# age = int(input("How old are you? : "))
 
-if age == 100:
-    print("You are a century old!")
-elif age >= 18:
-    print("Yor are and adult")
-elif age < 0:
-    print("You haven't born yet!")
-else:
-    print("Yor are a child!")
+# if age == 100:
+#     print("You are a century old!")
+# elif age >= 18:
+#     print("Yor are and adult")
+# elif age < 0:
+#     print("You haven't born yet!")
+# else:
+#     print("Yor are a child!")
+
+# logical operatore(and, or, not) in python
+
+temp = int(input("What is the temperature outside? : "))
+
+if not(temp >= 0 and temp <= 30):
+    print("The temperature is good today!")
+    print("go outside!")
+elif not(temp < 0 or temp > 30):
+    print("the temperature is bad today!")
+    print("stay inside!")
