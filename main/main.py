@@ -286,9 +286,17 @@ utensils = {"fork", "fork", "spon", "knife"}
 # print(last_character)
 
 # ------- function --------------
-def hello(name):
-    print("Hello " + name)
-    print("have a nice Day")
+# def hello(name):
+#     print("Hello " + name)
+#     print("have a nice Day")
 
-name = "Bro"
-hello(name)
+# name = "Bro"
+# hello(name)
+
+# ---------- return statement ---------
+def multiply(number1, number2):
+    return number1 * number2
+
+x = multiply(6, 8)
+
+print(x)
