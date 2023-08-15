@@ -309,11 +309,21 @@ utensils = {"fork", "fork", "spon", "knife"}
 
 # ----------- *args = parameter that will pack all arguments into a tuple -------------
 
-def add(*args):
-    sum = 0
-    for i in args:
-        if str(i).isnumeric():
-            sum += i
-    return sum
+# def add(*args):
+#     sum = 0
+#     for i in args:
+#         if str(i).isnumeric():
+#             sum += i
+#     return sum
 
-print(add(1, 2, 3, 4, 5, "Hello"))
+# print(add(1, 2, 3, 4, 5, "Hello"))
+
+# ----------- **kwargs = parameter that will pack all arguments into a dictionary ---------
+
+def hello(**kwargs):
+    print("hello " + kwargs['first'] + " " + kwargs['last'])
+
+    for key, value in kwargs.items():
+        print(key + " : " + value)
+
+hello(first="Bro", second="Crue", last='zaa')
