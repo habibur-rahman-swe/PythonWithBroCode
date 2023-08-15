@@ -294,9 +294,15 @@ utensils = {"fork", "fork", "spon", "knife"}
 # hello(name)
 
 # ---------- return statement ---------
-def multiply(number1, number2):
-    return number1 * number2
+# def multiply(number1, number2):
+#     return number1 * number2
 
-x = multiply(6, 8)
+# x = multiply(6, 8)
 
-print(x)
+# print(x)
+
+# -------- key word argument ------------
+def hello(first, middle, last):
+    print("Hello " + first + " " + middle + " " + last)
+
+hello(last="Code", first="Dude", middle="Bro")
