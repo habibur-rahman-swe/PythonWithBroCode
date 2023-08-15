@@ -285,4 +285,10 @@ utensils = {"fork", "fork", "spon", "knife"}
 # # print(first_name + " " + last_name)
 # print(last_character)
 
+# ------- function --------------
+def hello(name):
+    print("Hello " + name)
+    print("have a nice Day")
 
+name = "Bro"
+hello(name)
