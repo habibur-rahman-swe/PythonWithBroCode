@@ -301,8 +301,19 @@ utensils = {"fork", "fork", "spon", "knife"}
 
 # print(x)
 
-# -------- key word argument ------------
-def hello(first, middle, last):
-    print("Hello " + first + " " + middle + " " + last)
+# # -------- key word argument ------------
+# def hello(first, middle, last):
+#     print("Hello " + first + " " + middle + " " + last)
 
-hello(last="Code", first="Dude", middle="Bro")
+# hello(last="Code", first="Dude", middle="Bro")
+
+# ----------- *args = parameter that will pack all arguments into a tuple -------------
+
+def add(*args):
+    sum = 0
+    for i in args:
+        if str(i).isnumeric():
+            sum += i
+    return sum
+
+print(add(1, 2, 3, 4, 5, "Hello"))
