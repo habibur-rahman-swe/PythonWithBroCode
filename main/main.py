@@ -233,6 +233,9 @@
 
 # set 
 
+import math
+
+
 utensils = {"fork", "fork", "spon", "knife"}
 
 # utensils.add("napkin")
@@ -339,11 +342,24 @@ utensils = {"fork", "fork", "spon", "knife"}
 # text = "The {:^10} jumped over the {}"
 # print(text.format(animal, item))
 
-name = "Bro"
+# name = "Bro"
 
-print("Hello, my name is {}. Nice to meet you!".format(name))
-print("Hello, my name is {:10}. Nice to meet you!".format(name))
-print("Hello, my name is {:^10}. Nice to meet you!".format(name))
-print("Hello, my name is {:<10}. Nice to meet you!".format(name))
-print("Hello, my name is {:>10}. Nice to meet you!".format(name))
+# print("Hello, my name is {}. Nice to meet you!".format(name))
+# print("Hello, my name is {:10}. Nice to meet you!".format(name))
+# print("Hello, my name is {:^10}. Nice to meet you!".format(name))
+# print("Hello, my name is {:<10}. Nice to meet you!".format(name))
+# print("Hello, my name is {:>10}. Nice to meet you!".format(name))
 
+# formate number
+number = 1000
+
+print("The number pi is {:.10f}|".format(number))
+print("The number pi is {:20.10f}|".format(number))
+print("The number pi is {:<20.10f}|".format(number))
+print("The number pi is {:>20.10f}|".format(number))
+print("The number pi is {:^20.10f}|".format(number))
+print("The number pi is {:>10.10f}|".format(number))
+print("The number pi is {:>20b}|".format(number))
+print("The number pi is {:>20o}|".format(number))
+print("The number pi is {:>20x}|".format(number))
+print("The number pi is {:>20e}|".format(number))
