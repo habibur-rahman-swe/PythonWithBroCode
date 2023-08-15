@@ -253,21 +253,36 @@ utensils = {"fork", "fork", "spon", "knife"}
 # # for x in dinner_table:
 # #     print(x)
 
-capitals = {'USA':'Wasington DC',
-            'India':'New Dehli',
-            'China':'Beijing',
-            'Russia':'Moscow'}
+# capitals = {'USA':'Wasington DC',
+#             'India':'New Dehli',
+#             'China':'Beijing',
+#             'Russia':'Moscow'}
 
-capitals.update({'Germany':'Berlin'})
-capitals.update({'USA':'Las Vegas'})
-capitals.pop('China')
-capitals.clear()
-# print(capitals['Germany'])
-# print(capitals.get('Germany'))
-# print(capitals.keys())
-# print(capitals.values())
-# print(capitals.items())
+# capitals.update({'Germany':'Berlin'})
+# capitals.update({'USA':'Las Vegas'})
+# capitals.pop('China')
+# capitals.clear()
+# # print(capitals['Germany'])
+# # print(capitals.get('Germany'))
+# # print(capitals.keys())
+# # print(capitals.values())
+# # print(capitals.items())
 
-for key, value in capitals.items():
-    print(key, value)
+# for key, value in capitals.items():
+#     print(key, value)
+
+# index operator [] = gives access to a sequence's element (str, list, tuples)
+
+# name = "bro Code"
+
+# # if name[0].islower():
+# #     name = name.capitalize()
+
+# first_name = name[0: 3].upper()
+# last_name = name[3:].lower()
+# last_character = name[-2]
+
+# # print(first_name + " " + last_name)
+# print(last_character)
+
 
