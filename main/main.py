@@ -320,10 +320,30 @@ utensils = {"fork", "fork", "spon", "knife"}
 
 # ----------- **kwargs = parameter that will pack all arguments into a dictionary ---------
 
-def hello(**kwargs):
-    print("hello " + kwargs['first'] + " " + kwargs['last'])
+# def hello(**kwargs):
+#     print("hello " + kwargs['first'] + " " + kwargs['last'])
 
-    for key, value in kwargs.items():
-        print(key + " : " + value)
+#     for key, value in kwargs.items():
+#         print(key + " : " + value)
 
-hello(first="Bro", second="Crue", last='zaa')
+# hello(first="Bro", second="Crue", last='zaa')
+
+# ----> string format() = optional method that gives users more control when displaying output
+# animal = "cowrrrr"
+# item = "moon"
+
+# print("The " + animal + " jumped over the " + item)
+# print("The {} jumped over the {}.".format(animal, item))
+# print("The {1} jumped over the {0}.".format(animal, item))
+
+# text = "The {:^10} jumped over the {}"
+# print(text.format(animal, item))
+
+name = "Bro"
+
+print("Hello, my name is {}. Nice to meet you!".format(name))
+print("Hello, my name is {:10}. Nice to meet you!".format(name))
+print("Hello, my name is {:^10}. Nice to meet you!".format(name))
+print("Hello, my name is {:<10}. Nice to meet you!".format(name))
+print("Hello, my name is {:>10}. Nice to meet you!".format(name))
+
