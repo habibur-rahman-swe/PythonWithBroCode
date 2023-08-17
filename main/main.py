@@ -383,18 +383,31 @@ utensils = {"fork", "fork", "spon", "knife"}
 
 
 # exception handling
-try:
-    numerator = int(input("enter a number: "))
-    denominator = int(input("Enter a number to divide by: "))
-    result = numerator / denominator
-    print(result)
-except ZeroDivisionError as e:
-    print(e)
-except ValueError as e:
-    print(e)
-except Exception as e:
-    print(e)
+# try:
+#     numerator = int(input("enter a number: "))
+#     denominator = int(input("Enter a number to divide by: "))
+#     result = numerator / denominator
+#     print(result)
+# except ZeroDivisionError as e:
+#     print(e)
+# except ValueError as e:
+#     print(e)
+# except Exception as e:
+#     print(e)
+# else:
+#     print(result)
+# finally:
+#     print("This will execute")
+
+import os
+
+path = "D:\\Downloads\\thesis.pdf"
+
+if os.path.exists(path):
+    print("That location exists")
+    if os.path.isfile(path):
+        print("That is a file")
+    elif os.path.isdir(path):
+        print("That is a dir")
 else:
-    print(result)
-finally:
-    print("This will execute")
+    print("Location not exists!")
