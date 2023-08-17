@@ -399,15 +399,24 @@ utensils = {"fork", "fork", "spon", "knife"}
 # finally:
 #     print("This will execute")
 
-import os
+# import os
 
-path = "D:\\Downloads\\thesis.pdf"
+# path = "D:\\Downloads\\thesis.pdf"
 
-if os.path.exists(path):
-    print("That location exists")
-    if os.path.isfile(path):
-        print("That is a file")
-    elif os.path.isdir(path):
-        print("That is a dir")
-else:
-    print("Location not exists!")
+# if os.path.exists(path):
+#     print("That location exists")
+#     if os.path.isfile(path):
+#         print("That is a file")
+#     elif os.path.isdir(path):
+#         print("That is a dir")
+# else:
+#     print("Location not exists!")
+
+# reading content from a file 
+try:
+    with open("input.txt") as file:
+        print(file.read())
+except FileNotFoundError:
+    print("File not found")
+
+print(file.closed)
