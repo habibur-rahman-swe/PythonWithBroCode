@@ -351,15 +351,32 @@ utensils = {"fork", "fork", "spon", "knife"}
 # print("Hello, my name is {:>10}. Nice to meet you!".format(name))
 
 # formate number
-number = 1000
+# number = 1000
 
-print("The number pi is {:.10f}|".format(number))
-print("The number pi is {:20.10f}|".format(number))
-print("The number pi is {:<20.10f}|".format(number))
-print("The number pi is {:>20.10f}|".format(number))
-print("The number pi is {:^20.10f}|".format(number))
-print("The number pi is {:>10.10f}|".format(number))
-print("The number pi is {:>20b}|".format(number))
-print("The number pi is {:>20o}|".format(number))
-print("The number pi is {:>20x}|".format(number))
-print("The number pi is {:>20e}|".format(number))
+# print("The number pi is {:.10f}|".format(number))
+# print("The number pi is {:20.10f}|".format(number))
+# print("The number pi is {:<20.10f}|".format(number))
+# print("The number pi is {:>20.10f}|".format(number))
+# print("The number pi is {:^20.10f}|".format(number))
+# print("The number pi is {:>10.10f}|".format(number))
+# print("The number pi is {:>20b}|".format(number))
+# print("The number pi is {:>20o}|".format(number))
+# print("The number pi is {:>20x}|".format(number))
+# print("The number pi is {:>20e}|".format(number))
+
+# random number
+
+import random
+
+x = random.randint(1, 6)
+y = random.random()
+
+myList = ['rock', 'paper', 'scissors']
+
+z = random.choice(myList)
+
+cards = [1, 2, 3, 4 ,5, 6, 7, 8, 9, 'J', 'A', 'K', 'Q']
+
+random.shuffle(cards)
+
+print(cards)
