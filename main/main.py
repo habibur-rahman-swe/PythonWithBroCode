@@ -366,17 +366,35 @@ utensils = {"fork", "fork", "spon", "knife"}
 
 # random number
 
-import random
+# import random
 
-x = random.randint(1, 6)
-y = random.random()
+# x = random.randint(1, 6)
+# y = random.random()
 
-myList = ['rock', 'paper', 'scissors']
+# myList = ['rock', 'paper', 'scissors']
 
-z = random.choice(myList)
+# z = random.choice(myList)
 
-cards = [1, 2, 3, 4 ,5, 6, 7, 8, 9, 'J', 'A', 'K', 'Q']
+# cards = [1, 2, 3, 4 ,5, 6, 7, 8, 9, 'J', 'A', 'K', 'Q']
 
-random.shuffle(cards)
+# random.shuffle(cards)
 
-print(cards)
+# print(cards)
+
+
+# exception handling
+try:
+    numerator = int(input("enter a number: "))
+    denominator = int(input("Enter a number to divide by: "))
+    result = numerator / denominator
+    print(result)
+except ZeroDivisionError as e:
+    print(e)
+except ValueError as e:
+    print(e)
+except Exception as e:
+    print(e)
+else:
+    print(result)
+finally:
+    print("This will execute")
